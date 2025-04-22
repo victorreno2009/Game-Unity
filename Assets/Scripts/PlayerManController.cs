@@ -1,11 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
-public class PlayerController : MonoBehaviour
+public class PlayerManController : MonoBehaviour
 {
-
     public Animator playerAnimator;
 
     float input_x = 0;
@@ -39,13 +37,5 @@ public class PlayerController : MonoBehaviour
 
         playerAnimator.SetBool("isWalking", isWalking);
 
-    }
-
-    private void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.CompareTag("Planet1"))
-        {
-            SceneManager.LoadScene("Planet1Level");
-        }
     }
 }
