@@ -1,0 +1,3590 @@
+fileFormatVersion: 2
+guid: e4c4d36ed48c10f4e94f76bcfffe42a5
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Robo Gamer_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 305
+        width: 25
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18c54f0c42dcab442af586e12f2cf78a
+      internalID: -1011558727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 305
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd721a6285f2b5c41936311f90bd4f5b
+      internalID: 2021307019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_2
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 305
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb9c1977d0417084a8570838ce05e5cb
+      internalID: -668535795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_3
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 305
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38e6059f7fcf60b498cfc172d3c13ace
+      internalID: 292052472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_4
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 305
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2c7e93ebf2a21a4d9e659d956368473
+      internalID: 673013921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_5
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 305
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b80d9fdc6c01e9a48ad0f34bc6157d0c
+      internalID: -943922923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_6
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 305
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80e72bfa35d37fd44907157f94f27d43
+      internalID: 1786735910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_7
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 305
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cac7b0fef11a8a74d873f23915d6c956
+      internalID: -863400045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_8
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 304
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b8ceabbd7d5565489f19bdc6e4177d5
+      internalID: 1991387998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_9
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 305
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0de3a7cdf3b1bc646bb49610d8bc4295
+      internalID: -1232742180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_10
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 305
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1f82b58a9a61e640b5536a38dad1155
+      internalID: -981077260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_11
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 305
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9625f504fc47e54f9ba383927494d8c
+      internalID: -1017620087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_12
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 304
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cafbe8b812e49c0428c09e791a4d6afc
+      internalID: -396310626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_13
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 304
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72ace5bf72171574f91116febec95e59
+      internalID: -610036740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_14
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 303
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 525a1309da0fc874fbfbaf2cba0c8b8b
+      internalID: -1844785748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_15
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 303
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5747daf18c31d1a4983d4b7f662523d3
+      internalID: -476959718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_16
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 304
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bba3a70caec50b45852ff099c1e6150
+      internalID: 925490624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_17
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 303
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fb777d46a8efb0498ecac601ca1d4d7
+      internalID: 1970684522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_18
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 304
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a48c92d78e267c54081712788cbf3fb9
+      internalID: -512919310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_19
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 304
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4014b9e8cad34d646ad7111a38929b7d
+      internalID: -1327148283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_20
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 304
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44ef68b21ad300b41a6f9710ca00849e
+      internalID: 1851715228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_21
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 304
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26c3853fcadd1c4418de48067c577e04
+      internalID: 756470292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_22
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 284
+        width: 49
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d36c2296351f94543a5663f518d3d0d7
+      internalID: 12188268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_23
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 269
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 448ceac3d138fba4190dde225e6425e7
+      internalID: -1677241455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_24
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 269
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85c2f2da81bfa1149aa71b0c31ae1f6b
+      internalID: -221192154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_25
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 269
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4703d856d96e0b44ad9e5d4c75a3d4c
+      internalID: 163383624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_26
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 269
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa383bc1f1aee414b8ca6ae557594432
+      internalID: 1861804526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_27
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 269
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dda2403b25527424db377d8ac8d24d1a
+      internalID: -142209498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_28
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 269
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08865c3e6dd8cee4dbf9f8c2ce29580b
+      internalID: 1972954603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_29
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 269
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fa8b30420740114f812168f853d6135
+      internalID: -2001590887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_30
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 269
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23f9e247690b88f4a9b61c6825f55ff6
+      internalID: 1611649580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_31
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 269
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d74c170a23573ff48abbbd86be34ab3b
+      internalID: -344515472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_32
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 269
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88949c0eee22ce74cb559497fc0e48b5
+      internalID: -1414215035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_33
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 270
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b64c0bcf47f6f5b489b02fe8cc8dfcb7
+      internalID: -1425339049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_34
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 270
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02d8f05f6fff26942855f6c54392f2e3
+      internalID: 1406321944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_35
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 270
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d54109c2e272d44782fc6efc380981a
+      internalID: 1249143158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_36
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 269
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b68fc3393c159349a20d3739239dcef
+      internalID: -2055298588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_37
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 269
+        width: 66
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d64582486bd0f7a47a13fa8fd2bb89ac
+      internalID: -503221847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_38
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 268
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b3fb69d4a1c34346847cb487ca6e59c
+      internalID: -1634424695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_39
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 268
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 920dbfc5ab129644cad896866711b411
+      internalID: -786652939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_40
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 267
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fd5e5866d6c9dc40b6ed72466f1f834
+      internalID: -429951523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_41
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 267
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcac6fe2ab706354eaed4b3db90b6774
+      internalID: -2136782008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_42
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 232
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3954c6b6d96c0846a010634f5a25e6c
+      internalID: 532029246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_43
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 232
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92056eee6de65664ab143c87c12fd66b
+      internalID: 332796709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_44
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 232
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 605c5642abf11a34c8de62686463b88b
+      internalID: -1628462194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_45
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 232
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1937bc1129e4b6c4b98219a841d72f91
+      internalID: 52890924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_46
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 232
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccb1969ffffb06d4aaf3fc677528d8ab
+      internalID: -2081337762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_47
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 232
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d974fbed560468442b54a5309c0fd16e
+      internalID: -816145265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_48
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 232
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dca61ff6c9e5b3746a0421eff83ab7df
+      internalID: -455801628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_49
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 232
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a5036e56b519ca46920bebeff312a59
+      internalID: -1027358211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_50
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 232
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe89fc94830ca9948ad6b82ada29234a
+      internalID: -1148903258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_51
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 232
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c565960b879ff14fb2cd6a25e28f1b7
+      internalID: 1772986207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_52
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 234
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb5151f67d8552e409a306ce7d9e4008
+      internalID: -1690329836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_53
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 235
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e57e462fdb895ac4e8cbfe88345c2334
+      internalID: 1194931390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_54
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 234
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afbbfa0558abf8f4aaef692d2bb0fd81
+      internalID: 1116051551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_55
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 233
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 717787db0ac14194986d78c12c853268
+      internalID: 1948442636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_56
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 233
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06d70598b8519ee44b5f848c56d0d8bb
+      internalID: 1897937018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_57
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 233
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38695cbda3fc3d64e84609de016feba2
+      internalID: -1724487525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_58
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 224
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa45e8ec56b10a84d9e783abb4bfe524
+      internalID: 947958140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_59
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 198
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1758d93eba7ff84bb6742e949241ad9
+      internalID: -1259319153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_60
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 198
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52b532449256efa42ab09e3ae2990d8a
+      internalID: 329002924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_61
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 198
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba3508d5e6b15424a9447daf96ef08be
+      internalID: -1123983486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_62
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 198
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acf34cb2e562e8a4690fab1cfc1c81ba
+      internalID: 1402682749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_63
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 198
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f3893dc5f68014448a174c3d4cf95c5
+      internalID: 58174280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_64
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 198
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d746d0626f461d4a8bd9e4be166abd2
+      internalID: -423103641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_65
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 198
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15c835b5d0623184396638e7156f5c95
+      internalID: 1881793590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_66
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 198
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b423c01052d2b64e89d1d233a18da85
+      internalID: 1662699931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_67
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 198
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 980326d26348c4d4f9ed364c44b2a885
+      internalID: -599460772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_68
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 198
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c345451cb337e904aba63c5d8e5b0a12
+      internalID: 686699349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_69
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 199
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72a99bbf617dc0a4388777a771e57c24
+      internalID: -194287083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_70
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 199
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1e7626855bc64f4cbe9f17694c35159
+      internalID: -1114490938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_71
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 198
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2eaa544ab663cb4bb5a78b986dfc917
+      internalID: -1937310514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_72
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 198
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 187cd6a3ec53464438c640410e31fad4
+      internalID: 828887668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_73
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 197
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: effc1c9c7fd8d554f86c50d5e958bc1d
+      internalID: -744081612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_74
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 157
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b08025cf47004ed4ea5cf80d197dd957
+      internalID: -1412735028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_75
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 157
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 692c932bfa18d724aa5a2c84b52889df
+      internalID: -49859664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_76
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 157
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f96f83d55c064434ca25946800e322ba
+      internalID: 263661642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_77
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 160
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f577562579388642a2089b02ddaa50a
+      internalID: -1865036762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_78
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 161
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3005fe9f7b4fa994498d726dcd89114f
+      internalID: -521793112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_79
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 161
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63736ccf0ec6c4b47afa7782a45b8a4d
+      internalID: 14012199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_80
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 162
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2512567e3a19db41b0cad2d001be9ae
+      internalID: 1982899759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_81
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 163
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 351f53ae9808c5546ada4014c2606bf7
+      internalID: 1587514540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_82
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 163
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52a738b2aee44ea4cadf9811541281d8
+      internalID: 248550914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_83
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 164
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0526cccb28557749a06ea110cc7abb3
+      internalID: -1958716903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_84
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 164
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f01b66f9a5057340bcc0409cf5eafa1
+      internalID: -227148745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_85
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 164
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5948c11af04af06488ad448e7e30f182
+      internalID: -127559855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_86
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 162
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78e85e8521096714da93fc0d4f2b62c6
+      internalID: -220234164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_87
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 162
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34af3882f83c9014f92ea8a6671cfd35
+      internalID: -1760351459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_88
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 162
+        width: 32
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 490ba59b795df644c920acfa65b6decb
+      internalID: 2116162617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_89
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 161
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a99b0fcf20345be4eaaeae09ab90cf38
+      internalID: 640577948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_90
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 161
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cbcc497bdd95fd42aabc94ebe044e0d
+      internalID: 1677176987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_91
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 161
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3c22ab45057536448ad7e1cc7c670a2
+      internalID: 643863566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_92
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 122
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 933152d2dc5e56643a47996dc8b3c04b
+      internalID: 1910200099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_93
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 122
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 798b0c2512f147144908884618053768
+      internalID: -52749665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_94
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 122
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92a6fa24210c7ca48b2d36660e71795c
+      internalID: -880522265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_95
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 124
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 300d1d25e4c6bf946ab1f26d62210b64
+      internalID: 1207884017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_96
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 124
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8401404adad3aea40b4ef48afef861d7
+      internalID: 951697362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_97
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 125
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 851dbe5b9578bd5479a72a8de2b9112a
+      internalID: 857788508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_98
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 126
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bd8ee0444c355e498ccc30dc8ff547e
+      internalID: -1957427585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_99
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 127
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f22620ecd5596774cb7d1d2bbd317b31
+      internalID: 383034761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_100
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 127
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3d73de9660eaa940b5cba07ff1a5423
+      internalID: 835205518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_101
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 127
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b672a4b13f457c4187be659b57072a4
+      internalID: -1923098691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_102
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 127
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e741911a1a7b8d74894e504cbc5ae1f7
+      internalID: -164781716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_103
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 127
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e024b3b15d1842a4b805f250e5547877
+      internalID: 284147906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_104
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 126
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c82c09af8628c0498430c89ce3b4722
+      internalID: -238393275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_105
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 126
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24074d72acf0c0d4796652158ec66b04
+      internalID: -1711250829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_106
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 126
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97502fda0a1f92a4aa7696f0734267dc
+      internalID: 638072024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_107
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 123
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3068974c6cda5a44187017b49906aa03
+      internalID: -612449435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_108
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 123
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19bee5081c1719648b9745a0069e6a23
+      internalID: 2131999140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_109
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 123
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ea954209caff2a4ca922a6fc9b889c7
+      internalID: -1692733564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_110
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 85
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cbc3647ead08874fa919821167380b4
+      internalID: 1385224972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_111
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 85
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25838123a77c2174396079f9c49d1c5c
+      internalID: 1291637867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_112
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 85
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30c10358bcb1f4d41a0b4032318005da
+      internalID: 595741866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_113
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 85
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5566cd7c2005c3f4ca3d5352ee8e302c
+      internalID: 750764977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_114
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 85
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2556223ee8184c4db7543509c31b30e
+      internalID: -466340120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_115
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 85
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9290320ab661a134ea71a7c6e3da8b3f
+      internalID: 441523862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_116
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 85
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df0eff9a744fbe14f94176e4a82feb8e
+      internalID: -1725256113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_117
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 85
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17e5c798d89e9364091c74c8ce168e91
+      internalID: 925453324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_118
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 85
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86635f9afbe05454f9594e8928df886c
+      internalID: 1539090182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_119
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 84
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03d3b3313d311534a85075bce76511be
+      internalID: -1805690345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_120
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 84
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dd59a5dff22fc34c84eadba749a0cf3
+      internalID: -1652480031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_121
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 84
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88c776169fe820e47a0c2eb8629f4e5e
+      internalID: 1105255572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_122
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 83
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46dfff0137bc2e245982b26a18503fdc
+      internalID: -274039593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_123
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 82
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ba68100ee394f54bbbde417d51b8605
+      internalID: -381813570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_124
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 82
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8d7d38129878dd41a4785866172637d
+      internalID: -1832579218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_125
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 82
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e1f00b129ee75c4691148d91b1858e0
+      internalID: -359059306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_126
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 81
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 742a86c7282a8c249bca8d17b467134b
+      internalID: 1568381831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_127
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 81
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48bcb5df4da1f62408f13dffa215b284
+      internalID: -698192950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_128
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 81
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c13810a72c9337049a106a96ef53b6f2
+      internalID: 1594566669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_129
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 80
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 790db45cef52aae4a8a61e39aa722dc4
+      internalID: -1527023307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_130
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 46
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76187a1c91cf0c442a34a9bd2ca8d9f2
+      internalID: -24438406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_131
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 46
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c48544f64bfa85b47bc6604535144c2a
+      internalID: -1347160288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_132
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 46
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e172934cbd396794c8490280f76eb59d
+      internalID: 1746915534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_133
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 46
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95de57b8fb896aa48a76ec2def0d9e5a
+      internalID: 1127852780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_134
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 46
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ffe14f55f38f694b8c3ab957476c43d
+      internalID: 1595875992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_135
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 46
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5edb0bbe41c3e948b83f00f50943ec3
+      internalID: 1939445633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_136
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 45
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2644e153c44278499238bd111f8bcac
+      internalID: 1550366709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_137
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 45
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3123bf948adfd9343bc33604832b793b
+      internalID: 2044218840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_138
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 45
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed8cc1bcfb03df74fad40d012310f94d
+      internalID: 374704176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_139
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 45
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b0707b1d0c64e64995fdc494d7eb8cd
+      internalID: -265677413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_140
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 46
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ae8661efeb281c4eaf4c18e0536afdf
+      internalID: 99416892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_141
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 46
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc69f5babc0b6c641a9fe66446f4cbf3
+      internalID: -1190527627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_142
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 45
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6e3a1090f0f18447b62e9466f42c956
+      internalID: 1116177487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_143
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 45
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0930ddd17a8e9e0429cad4e52e024d4a
+      internalID: 1944449703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_144
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 45
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b307ce496ec4a584f96781c07711521e
+      internalID: 1429907813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_145
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 45
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6650652f98e2e054ca3b098f63ad5d8d
+      internalID: 435452125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_146
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 45
+        width: 30
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2f45acb82268ef458ff5c69d73f6d9b
+      internalID: 1137407866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_147
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 45
+        width: 30
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 360bbc0333c909946883eaedc066bd17
+      internalID: -1693962954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_148
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 45
+        width: 32
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3750177eb3dd5cf449a04d38622da6b0
+      internalID: 807477486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_149
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 25
+        width: 49
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7a9b9bbc6eaabb4b9517bbf08791a44
+      internalID: 172163746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_150
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 22
+        width: 54
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63e56d8084cdce742ab45983561d0de1
+      internalID: 1014617929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_151
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 25
+        width: 36
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66a6f1b7e9d8f52439fa4a5875ad5cdd
+      internalID: -1729532464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_152
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 1
+        width: 314
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2ebfa6c9572b5e418c3bab3b14ebf9b
+      internalID: -1061279295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_153
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 1
+        width: 49
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aa9f3760d5fe524d81502b850017e6b
+      internalID: 1850324064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_154
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 3
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d867926ef725d944a8f27cb4bee118b5
+      internalID: -1020370257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_155
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 3
+        width: 44
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdf44bfc2e189ee40b630e0a0d92ff7f
+      internalID: 1029023929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_156
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 6
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 554a4e8d319b36249bdf96f4f9820c75
+      internalID: -1188076520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robo Gamer_157
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 6
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5003168b655229b43ab5663d165591c6
+      internalID: -355532663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Robo Gamer_0: -1011558727
+      Robo Gamer_1: 2021307019
+      Robo Gamer_10: -981077260
+      Robo Gamer_100: 835205518
+      Robo Gamer_101: -1923098691
+      Robo Gamer_102: -164781716
+      Robo Gamer_103: 284147906
+      Robo Gamer_104: -238393275
+      Robo Gamer_105: -1711250829
+      Robo Gamer_106: 638072024
+      Robo Gamer_107: -612449435
+      Robo Gamer_108: 2131999140
+      Robo Gamer_109: -1692733564
+      Robo Gamer_11: -1017620087
+      Robo Gamer_110: 1385224972
+      Robo Gamer_111: 1291637867
+      Robo Gamer_112: 595741866
+      Robo Gamer_113: 750764977
+      Robo Gamer_114: -466340120
+      Robo Gamer_115: 441523862
+      Robo Gamer_116: -1725256113
+      Robo Gamer_117: 925453324
+      Robo Gamer_118: 1539090182
+      Robo Gamer_119: -1805690345
+      Robo Gamer_12: -396310626
+      Robo Gamer_120: -1652480031
+      Robo Gamer_121: 1105255572
+      Robo Gamer_122: -274039593
+      Robo Gamer_123: -381813570
+      Robo Gamer_124: -1832579218
+      Robo Gamer_125: -359059306
+      Robo Gamer_126: 1568381831
+      Robo Gamer_127: -698192950
+      Robo Gamer_128: 1594566669
+      Robo Gamer_129: -1527023307
+      Robo Gamer_13: -610036740
+      Robo Gamer_130: -24438406
+      Robo Gamer_131: -1347160288
+      Robo Gamer_132: 1746915534
+      Robo Gamer_133: 1127852780
+      Robo Gamer_134: 1595875992
+      Robo Gamer_135: 1939445633
+      Robo Gamer_136: 1550366709
+      Robo Gamer_137: 2044218840
+      Robo Gamer_138: 374704176
+      Robo Gamer_139: -265677413
+      Robo Gamer_14: -1844785748
+      Robo Gamer_140: 99416892
+      Robo Gamer_141: -1190527627
+      Robo Gamer_142: 1116177487
+      Robo Gamer_143: 1944449703
+      Robo Gamer_144: 1429907813
+      Robo Gamer_145: 435452125
+      Robo Gamer_146: 1137407866
+      Robo Gamer_147: -1693962954
+      Robo Gamer_148: 807477486
+      Robo Gamer_149: 172163746
+      Robo Gamer_15: -476959718
+      Robo Gamer_150: 1014617929
+      Robo Gamer_151: -1729532464
+      Robo Gamer_152: -1061279295
+      Robo Gamer_153: 1850324064
+      Robo Gamer_154: -1020370257
+      Robo Gamer_155: 1029023929
+      Robo Gamer_156: -1188076520
+      Robo Gamer_157: -355532663
+      Robo Gamer_16: 925490624
+      Robo Gamer_17: 1970684522
+      Robo Gamer_18: -512919310
+      Robo Gamer_19: -1327148283
+      Robo Gamer_2: -668535795
+      Robo Gamer_20: 1851715228
+      Robo Gamer_21: 756470292
+      Robo Gamer_22: 12188268
+      Robo Gamer_23: -1677241455
+      Robo Gamer_24: -221192154
+      Robo Gamer_25: 163383624
+      Robo Gamer_26: 1861804526
+      Robo Gamer_27: -142209498
+      Robo Gamer_28: 1972954603
+      Robo Gamer_29: -2001590887
+      Robo Gamer_3: 292052472
+      Robo Gamer_30: 1611649580
+      Robo Gamer_31: -344515472
+      Robo Gamer_32: -1414215035
+      Robo Gamer_33: -1425339049
+      Robo Gamer_34: 1406321944
+      Robo Gamer_35: 1249143158
+      Robo Gamer_36: -2055298588
+      Robo Gamer_37: -503221847
+      Robo Gamer_38: -1634424695
+      Robo Gamer_39: -786652939
+      Robo Gamer_4: 673013921
+      Robo Gamer_40: -429951523
+      Robo Gamer_41: -2136782008
+      Robo Gamer_42: 532029246
+      Robo Gamer_43: 332796709
+      Robo Gamer_44: -1628462194
+      Robo Gamer_45: 52890924
+      Robo Gamer_46: -2081337762
+      Robo Gamer_47: -816145265
+      Robo Gamer_48: -455801628
+      Robo Gamer_49: -1027358211
+      Robo Gamer_5: -943922923
+      Robo Gamer_50: -1148903258
+      Robo Gamer_51: 1772986207
+      Robo Gamer_52: -1690329836
+      Robo Gamer_53: 1194931390
+      Robo Gamer_54: 1116051551
+      Robo Gamer_55: 1948442636
+      Robo Gamer_56: 1897937018
+      Robo Gamer_57: -1724487525
+      Robo Gamer_58: 947958140
+      Robo Gamer_59: -1259319153
+      Robo Gamer_6: 1786735910
+      Robo Gamer_60: 329002924
+      Robo Gamer_61: -1123983486
+      Robo Gamer_62: 1402682749
+      Robo Gamer_63: 58174280
+      Robo Gamer_64: -423103641
+      Robo Gamer_65: 1881793590
+      Robo Gamer_66: 1662699931
+      Robo Gamer_67: -599460772
+      Robo Gamer_68: 686699349
+      Robo Gamer_69: -194287083
+      Robo Gamer_7: -863400045
+      Robo Gamer_70: -1114490938
+      Robo Gamer_71: -1937310514
+      Robo Gamer_72: 828887668
+      Robo Gamer_73: -744081612
+      Robo Gamer_74: -1412735028
+      Robo Gamer_75: -49859664
+      Robo Gamer_76: 263661642
+      Robo Gamer_77: -1865036762
+      Robo Gamer_78: -521793112
+      Robo Gamer_79: 14012199
+      Robo Gamer_8: 1991387998
+      Robo Gamer_80: 1982899759
+      Robo Gamer_81: 1587514540
+      Robo Gamer_82: 248550914
+      Robo Gamer_83: -1958716903
+      Robo Gamer_84: -227148745
+      Robo Gamer_85: -127559855
+      Robo Gamer_86: -220234164
+      Robo Gamer_87: -1760351459
+      Robo Gamer_88: 2116162617
+      Robo Gamer_89: 640577948
+      Robo Gamer_9: -1232742180
+      Robo Gamer_90: 1677176987
+      Robo Gamer_91: 643863566
+      Robo Gamer_92: 1910200099
+      Robo Gamer_93: -52749665
+      Robo Gamer_94: -880522265
+      Robo Gamer_95: 1207884017
+      Robo Gamer_96: 951697362
+      Robo Gamer_97: 857788508
+      Robo Gamer_98: -1957427585
+      Robo Gamer_99: 383034761
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
