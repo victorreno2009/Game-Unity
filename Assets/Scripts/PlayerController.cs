@@ -47,5 +47,9 @@ public class PlayerController : MonoBehaviour
         {
             SceneManager.LoadScene("Planet1Level");
         }
+        if (other.CompareTag("Planet2"))
+        {
+            SceneManager.LoadScene("Planet2");
+        }
     }
 }
