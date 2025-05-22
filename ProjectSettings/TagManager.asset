@@ -10,6 +10,7 @@ TagManager:
   - Planet3
   - Planet4
   - Enemy
+  - Guard
   layers:
   - Default
   - TransparentFX

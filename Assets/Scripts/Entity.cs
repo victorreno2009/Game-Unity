@@ -13,7 +13,7 @@ public class Entity
     [Header("Health")]
     public int currentHealth;
     public int maxHealth;
-    public float maxValue;
+    
 
    
 

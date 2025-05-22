@@ -35,6 +35,173 @@ public class Guard : MonoBehaviour
             rb2D = GetComponent<Rigidbody2D>();
             animator = GetComponent<Animator>();
             manager = GameObject.Find("GameManager").GetComponent<GameManager>();
+
+            entity.maxHealth = manager.CalculateHealth(entity);
+            entity.currentHealth = entity.maxHealth;
+
+            currentWaitTime = waitTime;
+            if (wayPointList.Length > 0)
+            {
+                targetWayPoint = wayPointList[currentWayPoint];
+                lastDistanceToTarget = Vector2.Distance(transform.position, targetWayPoint.position);
+            }
         }
+
+    private void Update()
+    {
+        if (entity.dead)
+        return;
+
+        if (entity.currentHealth <= 0)
+        {
+            entity.currentHealth = 0;
+            Die();
+        }
+
+        if (!entity.inCombat)
+        {
+            if (wayPointList.Length > 0)
+            {
+                Patrol();
+            }
+            else
+            {
+                animator.SetBool("isWalking", false);
+            }
+        }
+        else
+        {
+            if (entity.attackTimer > 0)
+                entity.attackTimer -= Time.deltaTime;
+
+            if (entity.attackTimer < 0)
+                entity.attackTimer = 0;
+
+            if (entity.target != null && entity.inCombat)
+            {
+                // atacar
+                if(!entity.combatCoroutine)
+                StartCoroutine(Attack());
+            }
+            else
+            {
+                entity.combatCoroutine = false;
+                StopCoroutine(Attack());
+            }    
+        }
+    }
+
+    
+
+    private void OnTriggerStay2D(Collider2D collider) 
+    {
+        if(collider.tag == "Player" && !entity.dead)
+        {
+            entity.inCombat = true;
+            entity.target = collider.gameObject;
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D collider)
+    {
+        if (collider.tag == "Player")
+        {
+            entity.inCombat = false;
+            entity.target = null;
+        }
+    }
+
+    void Patrol()
+    {
+        if (entity.dead)
+        return;
+
+        //calcular a distância do wayPoint
+        float distanceToTarget = Vector2.Distance(transform.position, targetWayPoint.position);
+
+        if(distanceToTarget <= arrivalDistance || distanceToTarget >= lastDistanceToTarget)
+        {
+            animator.SetBool("isWalking", false);
+
+            if(currentWaitTime <= 0)
+            {
+                currentWayPoint++;
+
+                if(currentWayPoint >= wayPointList.Length)
+                currentWayPoint = 0;
+
+                targetWayPoint = wayPointList[currentWayPoint];
+                lastDistanceToTarget = Vector2.Distance(transform.position, targetWayPoint.position);
+
+                currentWaitTime = waitTime;
+            }
+            else
+            {
+                currentWaitTime -= Time.deltaTime;
+            }
+        }
+        else
+        {
+            animator.SetBool("isWalking", true);
+            lastDistanceToTarget = distanceToTarget;
+        }
+
+        Vector2 direction = (targetWayPoint.position - transform.position).normalized;
+        animator.SetFloat("input_x", direction.x);
+        animator.SetFloat("input_y", direction.y);
+
+        rb2D.MovePosition(rb2D.position + direction * (entity.speed * Time.fixedDeltaTime));
+        
+    }
+
+    IEnumerator Attack()
+    {
+        entity.combatCoroutine = true;
+
+        while (true)
+        {
+            yield return new WaitForSeconds(entity.cooldown);
+
+            if (entity.target != null && !entity.target.GetComponent<Player>().entity.dead)
+            {
+                animator.SetBool("attack", true);
+
+                float distance = Vector2.Distance(entity.target.transform.position, transform.position);
+
+                if (distance <= entity.attackDistance)
+                {
+                    int dmg = manager.CalculateDamage(entity, entity.damage);
+                    int targetDef = manager.CalculateDefense(entity.target.GetComponent<Player>().entity, entity.target.GetComponent<Player>().entity.defense);
+                    int dmgResult = dmg - targetDef;
+
+                    if (dmgResult < 0)
+                     dmgResult = 0;
+
+                    entity.target.GetComponent<Player>().entity.currentHealth -= dmgResult;
+                }
+            }
+        }
+    }
+
+    void Die()
+    {
+        entity.dead = true;
+        entity.inCombat = false;
+        entity.target = null;
+
+        animator.SetBool("isWalking", false);
+
+        StopAllCoroutines();
+        StartCoroutine(Respawn());
+    }
+
+    IEnumerator Respawn()
+    {
+        yield return new WaitForSeconds(respawnTime);
+        GameObject newGuard = Instantiate(prefab, transform.position, transform.rotation, null);
+        newGuard.GetComponent<Guard>().entity.dead = false;
+
+        Destroy(this.gameObject);
+    }
     
 }
