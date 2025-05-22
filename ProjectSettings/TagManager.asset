@@ -9,6 +9,7 @@ TagManager:
   - Planet2
   - Planet3
   - Planet4
+  - Enemy
   layers:
   - Default
   - TransparentFX
