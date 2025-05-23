@@ -13,7 +13,7 @@ public class Player : MonoBehaviour
 
     public bool regenHPEnabled = true;
 
-    public float regenHPTime = 10f;
+    public float regenHPTime = 15f;
 
     public int regenHPValue = 3;
 

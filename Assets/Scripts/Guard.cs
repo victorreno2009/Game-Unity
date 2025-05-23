@@ -95,10 +95,11 @@ public class Guard : MonoBehaviour
 
     private void OnTriggerStay2D(Collider2D collider) 
     {
-        if(collider.tag == "Player" && !entity.dead)
+        if(collider.tag == "Player" && !entity.dead)//!entity.inCombat)
         {
-            entity.inCombat = true;
+            // entity.attackTimer = entity.attackSpeed;
             entity.target = collider.gameObject;
+            entity.inCombat = true;
         }
     }
 
