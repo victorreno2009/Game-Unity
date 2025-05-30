@@ -981,7 +981,7 @@ GameObject:
   - component: {fileID: 1277816081}
   - component: {fileID: 1277816082}
   m_Layer: 0
-  m_Name: BoxCollider3
+  m_Name: BoxCollider2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -995,7 +995,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1277816080}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1147,8 +1147,8 @@ GameObject:
   - component: {fileID: 1499175976}
   - component: {fileID: 1499175978}
   m_Layer: 0
-  m_Name: planet3
-  m_TagString: Planet3
+  m_Name: planet2
+  m_TagString: Planet2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1268,7 +1268,7 @@ GameObject:
   - component: {fileID: 1579496592}
   - component: {fileID: 1579496593}
   m_Layer: 0
-  m_Name: BoxCollider2
+  m_Name: BoxCollider3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1283,7 +1283,7 @@ Transform:
   m_GameObject: {fileID: 1579496590}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0.15, y: 0.05, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1373,8 +1373,8 @@ GameObject:
   - component: {fileID: 1723751723}
   - component: {fileID: 1723751725}
   m_Layer: 0
-  m_Name: planet2
-  m_TagString: Planet2
+  m_Name: planet3
+  m_TagString: Planet3
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1440,7 +1440,7 @@ Transform:
   m_GameObject: {fileID: 1723751722}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 19.72, y: 7.3, z: 0}
+  m_LocalPosition: {x: 20.82, y: 6.84, z: 0}
   m_LocalScale: {x: 2.8488, y: 2.5722, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1657,6 +1657,6 @@ SceneRoots:
   - {fileID: 292149466}
   - {fileID: 1177306016}
   - {fileID: 1730559624}
-  - {fileID: 1723751724}
   - {fileID: 1499175977}
+  - {fileID: 1723751724}
   - {fileID: 1067925294}
