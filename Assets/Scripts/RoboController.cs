@@ -25,6 +25,8 @@ public class RoboController : MonoBehaviour
     Rigidbody2D rb2D;
     Vector2 movement = Vector2.zero;
 
+    public bool canMove = true;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -37,6 +39,16 @@ public class RoboController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+         if (!canMove)
+        {
+        input_x = 0;
+        input_y = 0;
+        isWalking = false;
+        movement = Vector2.zero;
+
+        roboAnimator.SetBool("isWalking", false);
+        return;
+        }
         input_x = Input.GetAxisRaw("Horizontal");
         input_y = Input.GetAxisRaw("Vertical");
         isWalking = (input_x != 0 || input_y != 0);
@@ -50,14 +62,60 @@ public class RoboController : MonoBehaviour
 
         roboAnimator.SetBool("isWalking", isWalking);
 
-        if(Input.GetButtonDown("Fire1")){
+        
+        if (player.entity.attackTimer < 0)
+            player.entity.attackTimer = 0;
+            else
+                player.entity.attackTimer -= Time.deltaTime;
+
+      
+        
+            if(Input.GetKeyDown(KeyCode.Z))
+            {
             roboAnimator.SetTrigger("attack");
-        }
+            
+
+            Attack();
+            }
+        
 
     }
 
     private void FixedUpdate()
     {
         rb2D.MovePosition(rb2D.position + movement * player.entity.speed * Time.fixedDeltaTime);
+    }
+
+    void Attack()
+    {
+        if(player.entity.target == null)
+        return;
+
+        Guard guard = player.entity.target.GetComponent<Guard>();
+
+        if(guard.entity.dead)
+        {
+            player.entity.target = null;
+            return;
+        }
+
+        float distance = Vector2.Distance(transform.position, player.entity.target.transform.position);
+
+        if(distance <= player.entity.attackDistance)
+        {
+            int dmg = player.manager.CalculateDamage(player.entity, player.entity.damage);
+            int enemyDef = player.manager.CalculateDefense(guard.entity, guard.entity.defense);
+            int result = dmg - enemyDef;
+
+            if (result < 0)
+            result = 0;
+
+            guard.entity.currentHealth -= result;
+
+            guard.entity.target = this.gameObject;
+        }
+        
+
+
     }
 }

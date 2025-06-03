@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using System;
+using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
@@ -109,6 +110,7 @@ public class Player : MonoBehaviour
  void Die()
   {
     Debug.Log("O jogador morreu!");
-    // Aqui você pode colocar lógica para morte, desativar jogador, mostrar UI de morte etc.
+    Time.timeScale = 1f;
+    SceneManager.LoadScene("Menu");
    }
 }
