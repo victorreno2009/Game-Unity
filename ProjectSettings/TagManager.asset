@@ -11,6 +11,8 @@ TagManager:
   - Planet4
   - Enemy
   - Guard
+  - ExitMap1
+  - Item
   layers:
   - Default
   - TransparentFX

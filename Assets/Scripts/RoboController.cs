@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 
 [RequireComponent(typeof(Rigidbody2D))]
@@ -26,6 +27,7 @@ public class RoboController : MonoBehaviour
     Vector2 movement = Vector2.zero;
 
     public bool canMove = true;
+    public AudioSource audioSource;
 
     // Start is called before the first frame update
     void Start()
@@ -34,6 +36,10 @@ public class RoboController : MonoBehaviour
         isWalking = true;
         rb2D = GetComponent<Rigidbody2D>();
         player = GetComponent<Player>();
+        if(audioSource == null)
+        {
+            audioSource = GetComponent<AudioSource>();
+        }
     }
 
     // Update is called once per frame
@@ -86,6 +92,40 @@ public class RoboController : MonoBehaviour
         rb2D.MovePosition(rb2D.position + movement * player.entity.speed * Time.fixedDeltaTime);
     }
 
+   
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("Item"))
+        {
+            if (audioSource != null)
+            {
+                audioSource.Play();
+            }
+            else
+            {
+                Debug.LogWarning("AudioSource não atribuído ao Player!");
+            }
+            Destroy(collision.gameObject);
+            Debug.Log("Item coletado!");
+        }
+    }
+
+    private void OnTriggerStay2D(Collider2D collider)
+    {
+        if(collider.transform.tag == "Guard")
+        {
+            player.entity.target = collider.transform.gameObject;
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D collider)
+    {
+        if(collider.transform.tag == "Guard")
+        {
+            player.entity.target = null;
+        }
+    }
+
     void Attack()
     {
         if(player.entity.target == null)
@@ -110,6 +150,7 @@ public class RoboController : MonoBehaviour
             if (result < 0)
             result = 0;
 
+            Debug.Log("ATAQUE");
             guard.entity.currentHealth -= result;
 
             guard.entity.target = this.gameObject;

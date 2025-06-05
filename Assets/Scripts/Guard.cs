@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 [RequireComponent(typeof(Rigidbody2D))]
 [RequireComponent(typeof(Animator))]
@@ -27,6 +28,11 @@ public class Guard : MonoBehaviour
     public bool respawn = true;
     public float respawnTime = 10f;
 
+    [Header("UI")]
+    public Slider healthSlider;
+
+    public BoxCollider2D exitCollider;
+
     Rigidbody2D rb2D;
     Animator animator;
 
@@ -38,6 +44,8 @@ public class Guard : MonoBehaviour
 
             entity.maxHealth = manager.CalculateHealth(entity);
             entity.currentHealth = entity.maxHealth;
+
+            healthSlider.value = entity.currentHealth;
 
             currentWaitTime = waitTime;
             if (wayPointList.Length > 0)
@@ -57,6 +65,8 @@ public class Guard : MonoBehaviour
             entity.currentHealth = 0;
             Die();
         }
+
+        healthSlider.value = entity.currentHealth;
 
         if (!entity.inCombat)
         {
@@ -184,25 +194,34 @@ public class Guard : MonoBehaviour
         }
     }
 
-    void Die()
+ void Die()
+{
+    entity.dead = true;
+    entity.inCombat = false;
+    entity.target = null;
+
+    animator.SetBool("isWalking", false);
+
+    StopAllCoroutines();
+    StartCoroutine(HandleGuardDeath());
+}
+
+IEnumerator HandleGuardDeath()
+{
+    Destroy(gameObject);
+    yield return null; // espera 1 frame
+
+    GameObject[] guards = GameObject.FindGameObjectsWithTag("Guard");
+    Debug.Log("Restam " + guards.Length + " guards.");
+
+    if (guards.Length == 0)
     {
-        entity.dead = true;
-        entity.inCombat = false;
-        entity.target = null;
-
-        animator.SetBool("isWalking", false);
-
-        StopAllCoroutines();
-        StartCoroutine(Respawn());
+        exitCollider.enabled = true;
+        Debug.Log("Todos os guards morreram. Saída liberada!");
     }
+}
 
-    IEnumerator Respawn()
-    {
-        yield return new WaitForSeconds(respawnTime);
-        GameObject newGuard = Instantiate(prefab, transform.position, transform.rotation, null);
-        newGuard.GetComponent<Guard>().entity.dead = false;
 
-        Destroy(this.gameObject);
-    }
+
     
 }
