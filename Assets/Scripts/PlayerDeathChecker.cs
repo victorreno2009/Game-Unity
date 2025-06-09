@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.Tilemaps;
+using UnityEngine.SceneManagement;
 
 public class PlayerDeathChecker : MonoBehaviour
 {
@@ -20,7 +21,8 @@ public class PlayerDeathChecker : MonoBehaviour
 
     void Die()
     {
-        Debug.Log("O personagem caiu e morreu!");
-        // Aqui você pode ativar animação de morte, reiniciar cena etc.
+        Debug.Log("O jogador morreu!");
+        Time.timeScale = 1f;
+        SceneManager.LoadScene("Menu");
     }
 }
