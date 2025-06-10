@@ -13,6 +13,8 @@ TagManager:
   - Guard
   - ExitMap1
   - Item
+  - ExitMap2
+  - ExitMap3
   layers:
   - Default
   - TransparentFX

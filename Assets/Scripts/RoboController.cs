@@ -27,7 +27,17 @@ public class RoboController : MonoBehaviour
     Vector2 movement = Vector2.zero;
 
     public bool canMove = true;
+
     public AudioSource audioSource;
+
+    public GameObject exitMap1;
+
+    public GameObject exitMap2;
+
+    public GameObject exitMap3;
+
+    private bool canExit = false;
+   
 
     // Start is called before the first frame update
     void Start()
@@ -36,10 +46,7 @@ public class RoboController : MonoBehaviour
         isWalking = true;
         rb2D = GetComponent<Rigidbody2D>();
         player = GetComponent<Player>();
-        if(audioSource == null)
-        {
-            audioSource = GetComponent<AudioSource>();
-        }
+        
     }
 
     // Update is called once per frame
@@ -107,8 +114,40 @@ public class RoboController : MonoBehaviour
             }
             Destroy(collision.gameObject);
             Debug.Log("Item coletado!");
+
+             if (exitMap1 != null) {
+                exitMap1.SetActive(false); // Remove bloqueio
+
+            canExit = true; // Libera troca de cena
+             }
+             if (exitMap2 != null)
+                exitMap2.SetActive(false); // Remove bloqueio
+
+             canExit = true; // Libera troca de cena
+
+             if (exitMap3 != null)
+                exitMap3.SetActive(false); // Remove bloqueio
+
+             canExit = true; // Libera troca de cena
+        }
+
+        // Entra na área de saída
+        if (collision.CompareTag("ExitMap1") && canExit)
+        {
+            SceneManager.LoadScene("SpaceLevel 2");
+        }
+
+        if (collision.CompareTag("ExitMap2") && canExit)
+        {
+            SceneManager.LoadScene("SpaceLevel 3");
+        }
+
+        if (collision.CompareTag("ExitMap3") && canExit)
+        {
+            SceneManager.LoadScene("SpaceLevel 4");
         }
     }
+    
 
     private void OnTriggerStay2D(Collider2D collider)
     {
