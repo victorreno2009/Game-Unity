@@ -45,7 +45,7 @@ public class Guard : MonoBehaviour
             entity.maxHealth = manager.CalculateHealth(entity);
             entity.currentHealth = entity.maxHealth;
 
-            healthSlider.value = entity.currentHealth;
+           // healthSlider.value = entity.currentHealth;
 
             currentWaitTime = waitTime;
             if (wayPointList.Length > 0)
@@ -66,7 +66,7 @@ public class Guard : MonoBehaviour
             Die();
         }
 
-        healthSlider.value = entity.currentHealth;
+        //healthSlider.value = entity.currentHealth;
 
         if (!entity.inCombat)
         {
@@ -76,7 +76,7 @@ public class Guard : MonoBehaviour
             }
             else
             {
-                animator.SetBool("isWalking", false);
+              //  animator.SetBool("isWalking", false);
             }
         }
         else
@@ -132,7 +132,7 @@ public class Guard : MonoBehaviour
 
         if(distanceToTarget <= arrivalDistance || distanceToTarget >= lastDistanceToTarget)
         {
-            animator.SetBool("isWalking", false);
+            
 
             if(currentWaitTime <= 0)
             {
@@ -153,14 +153,12 @@ public class Guard : MonoBehaviour
         }
         else
         {
-            animator.SetBool("isWalking", true);
+           // animator.SetBool("isWalking", true);
             lastDistanceToTarget = distanceToTarget;
         }
 
         Vector2 direction = (targetWayPoint.position - transform.position).normalized;
-        animator.SetFloat("input_x", direction.x);
-        animator.SetFloat("input_y", direction.y);
-
+        
         rb2D.MovePosition(rb2D.position + direction * (entity.speed * Time.fixedDeltaTime));
         
     }
@@ -175,7 +173,7 @@ public class Guard : MonoBehaviour
 
             if (entity.target != null && !entity.target.GetComponent<Player>().entity.dead)
             {
-                animator.SetBool("attack", true);
+              //  animator.SetBool("attack", true);
 
                 float distance = Vector2.Distance(entity.target.transform.position, transform.position);
 

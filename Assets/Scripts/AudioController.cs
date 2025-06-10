@@ -10,9 +10,9 @@ public class AudioController : MonoBehaviour
     void Start()
     {
         AudioClip musicasDeFundoFase = musicasDeFundo[0];
-        audioSourceMusicaDeFundo.clip = musicasDeFundoFase;
-        audioSourceMusicaDeFundo.loop = true;
-        audioSourceMusicaDeFundo.Play();
+        //audioSourceMusicaDeFundo.clip = musicasDeFundoFase;
+      //  audioSourceMusicaDeFundo.loop = true;
+       // audioSourceMusicaDeFundo.Play();
     }
 
     // Update is called once per frame
