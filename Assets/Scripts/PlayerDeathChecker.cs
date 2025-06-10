@@ -4,8 +4,8 @@ using UnityEngine.SceneManagement;
 
 public class PlayerDeathChecker : MonoBehaviour
 {
-    public Tilemap groundTilemap; // Referência ao Tilemap do chão
-    public float checkOffset = 0.1f; // Um pequeno deslocamento para pegar o tile sob os pés do personagem
+    public Tilemap groundTilemap;
+    public float checkOffset = 0.1f;
 
     void Update()
     {
@@ -14,14 +14,13 @@ public class PlayerDeathChecker : MonoBehaviour
 
         if (groundTilemap.GetTile(cellPosition) == null)
         {
-            // O personagem está fora do chão
             Die();
         }
     }
 
     void Die()
     {
-        Debug.Log("O jogador morreu!");
+        Debug.Log("morreu");
         Time.timeScale = 1f;
         SceneManager.LoadScene("Menu");
     }
