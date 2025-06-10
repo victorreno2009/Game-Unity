@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Planet2.unity
     guid: 8bf582e637bc29245926b3e8175ddfb8
+  - enabled: 1
+    path: Assets/Scenes/Planet3.unity
+    guid: df25e56ace257274baf18d0246971213
   m_configObjects: {}

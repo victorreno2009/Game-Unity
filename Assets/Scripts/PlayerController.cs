@@ -51,5 +51,10 @@ public class PlayerController : MonoBehaviour
         {
             SceneManager.LoadScene("Planet2");
         }
+        if (other.CompareTag("Planet3"))
+        {
+            SceneManager.LoadScene("Planet3");
+        }
+        }
     }
-}
+
