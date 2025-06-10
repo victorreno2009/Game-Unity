@@ -17,7 +17,7 @@ public class MenuPrincipalManager : MonoBehaviour
     
     private void OnButtonPlayClick() {
         Debug.Log("JOGAR");
-        SceneManager.LoadScene("SpaceLevel");
+        SceneManager.LoadScene("MenuTutorial");
     }
 
     public void OnButtonQuitClick() {

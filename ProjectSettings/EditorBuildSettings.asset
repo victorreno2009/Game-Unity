@@ -18,6 +18,11 @@ EditorBuildSettings:
     path: Assets/Scenes/Planet2.unity
     guid: 8bf582e637bc29245926b3e8175ddfb8
   - enabled: 1
+<<<<<<< HEAD
     path: Assets/Scenes/Planet3.unity
     guid: df25e56ace257274baf18d0246971213
+=======
+    path: Assets/Scenes/MenuTutorial.unity
+    guid: d0fd824e9561f574ba9aac1440d348a7
+>>>>>>> 7f5ff4b725b32f3cc99c3c7d7791edc9b4141fe0
   m_configObjects: {}
